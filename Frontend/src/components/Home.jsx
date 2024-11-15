@@ -24,17 +24,8 @@ const Home = () => {
       
        })
     }
-//     useEffect(()=>{
-//     })
 
-//     let updateCourse=(p)=>{
-    
-//     axios.update('https://localhost:3000/course/edit'+p).then((res)=>{
-//       alert ('updated');
-//      window.location.reload();
 
-//  })
-//}
 const  navigate=useNavigate()
 function updateCourse(course) {
   navigate('/add',{state:{course}})    //object notation
